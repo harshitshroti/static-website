@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../10.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+	
+
+
+}
+
+ul li{
+	display: inline-block;
+	width:100px;
+	
+	
+}
+   ul li ul {
+	display: none;
+}
+   ul li:hover > ul{
+	display:block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	 border: 1px solid transparent;
+	 line-height: -50px;
+	 tansition: o.6s ease;
+	 
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li li{
+	text-align:left;
+	height:40px;
+	width:90px;
+}
+	ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+
+	.main{
+		max-width: 1200px;
+		margin: auto;
+		
+	}
+.title{
+	position: center;
+	top: 30%;
+	left: 40%;
+	tansform: tarnaslate(-50%,-50%);
+}
+ .title h1{
+	 color: #fff;
+	 font-size: 110px;
+ }
+
+.button{position: absolute;
+	top: 65%;
+	left:30%;
+	tansform: tarnaslate(-100%,0%);
+ }
+ .btn{
+	 border: 1px solid transparent;
+	 padding: 20px 30px;
+	 color: #fff;
+	 text-decoration: none;
+ }
+ .btn:hover{
+	background-color: #fff;
+	color: #000
+ }
+ 
+	

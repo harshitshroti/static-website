@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../64.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	
+	
+
+
+}
+
+ul li{
+	display: inline-block;
+	width:100px;
+	
+	
+}
+   ul li ul {
+	display: none;
+}
+   ul li:hover > ul{
+	display:block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	 border: 1px solid transparent;
+	 line-height: -50px;
+	 tansition: o.6s ease;
+	 
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li li{
+	text-align:left;
+	height:40px;
+	width:90px;
+}
+	ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+
+	.main{
+		max-width: 1200px;
+		margin: auto;
+		
+	}
+.title{
+	position: center;
+	top: 30%;
+	left: 40%;
+	transform: tarnaslate(-50%,-50%);
+}
+ .title h1{
+	 color: #fff;
+	 font-size: 80px;
+ }
+ .damn{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+
+}
+ .damn h2{
+	 color: #fff;
+	 font-size: 20px;
+ }
+ 
+.image_s{
+
+
+	height:380px;
+	width:400px;
+	margin-top: 56px;
+	padding : 56px 65px;
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../63.jpg);
+}
+	
+}
+.image_s:hover{
+    
+	top: 70%;
+	left: 40%;
+
+	height:300px;
+	width:400px;
+	background-color: transparent;
+	color: #000;
+}    
+
+
+	
